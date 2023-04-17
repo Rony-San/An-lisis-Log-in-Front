@@ -15,8 +15,12 @@ body {
   width: 400px;
   background: white;
   border-radius: 10px;
+  overflow: hidden;
 }
 
+.image img {
+  width: 400px;
+}
 .center h1 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
