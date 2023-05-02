@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="forulario.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="Universidad_Logo.jpg" class="logo" alt="" />
+        <h2>Universidad de Antioquia</h2>
+        <ul>
+          <li><a href="">ESTUDIANTES</a></li>
+          <li>
+            <a href=""><button>Salida Segura</button></a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar_line"></div>
+      <div class="secondary_nav">
+        <div class="first_e" id="first_e"><h4>Cancelación de curso</h4></div>
+        <div class="second_e" id="second_e">
+          <h4>Cancelación de semestre</h4>
+        </div>
+        <div class="third_e" id="third_e"><h4>Vida Acádemica</h4></div>
+        <div class="forth_e" id="forth_e"><h4>Solicitudes Acádemicas</h4></div>
+      </div>
+      <div class="secondary_nav_line" id="second_line"></div>
+      <div class="main_wrapper">
+        <div class="left_menu">
+          <h3>Cancelaciones</h3>
+          <p class="register">Registar cancelaciones</p>
+          <p class="pending">Cancelaciones Pendientes</p>
+        </div>
+        <div class="form">
+          <div class="first_line_form">
+            <div class="personal_information">
+              <ul class="student_information">
+                <li>
+                  <p>Fecha:</p>
+                  <span>...</span>
+                </li>
+                <li>
+                  <p>Estuadiante:</p>
+                  <span>...</span>
+                </li>
+                <li>
+                  <p>Programa:</p>
+                  <span>...</span>
+                </li>
+                <li>
+                  <p>Semestre:</p>
+                  <span>...</span>
+                </li>
+              </ul>
+            </div>
+            <div class="rules_information">
+              <div class="rules_rectangle show-modal">Reglamento</div>
+              <div class="rules_circle show-modal">i</div>
+            </div>
+          </div>
+
+          <div class="cancellation_form">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Materia</th>
+                  <th>Apocope</th>
+                  <th>Creditos</th>
+                  <th>Grupos</th>
+                  <th>Correquisitos</th>
+                  <th>% evaluado</th>
+                  <th>Nota</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dato 1</td>
+                  <td>Dato 2</td>
+                  <td>Dato 3</td>
+                  <td>Dato 4</td>
+                  <td>Dato 5</td>
+                  <td>Dato 6</td>
+                  <td>Dato 7</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dato 1</td>
+                  <td>Dato 2</td>
+                  <td>Dato 3</td>
+                  <td>Dato 4</td>
+                  <td>Dato 5</td>
+                  <td>Dato 6</td>
+                  <td>Dato 7</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dato 1</td>
+                  <td>Dato 2</td>
+                  <td>Dato 3</td>
+                  <td>Dato 4</td>
+                  <td>Dato 5</td>
+                  <td>Dato 6</td>
+                  <td>Dato 7</td>
+                </tr>
+              </tbody>
+            </table>
+            <textarea
+              class="text-area"
+              placeholder="Ingresa la Justificación."
+            ></textarea>
+            <div class="button-container">
+              <button class="send-button">Enviar Cancelación</button>
+            </div>
+          </div>
+          <div class="secondary_form hidden">
+            <h2>Historial de cancelaciones</h2>
+
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Materia</th>
+                  <th>Apocope</th>
+                  <th>Justificación</th>
+                  <th>Aprobado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dato 1</td>
+                  <td>Dato 2</td>
+                  <td>Dato 3</td>
+                  <td>Dato 4</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>Dato 1</td>
+                  <td>Dato 2</td>
+                  <td>Dato 3</td>
+                  <td>Dato 4</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="button-container-2">
+              <button class="check-button">Enviar Cancelación</button>
+
+              <button class="delete-button">Enviar Cancelación</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="students_links">
+          <ul>
+            <li>
+              <a href="#"><h4>Información Estudiantes</h4></a>
+            </li>
+            <li><a href="">Cancelación de materias</a></li>
+
+            <li><a href="">Cancelación de semestre</a></li>
+
+            <li><a href="">Semestre acádemico</a></li>
+            <li><a href="">Solicitudes de cancelación</a></li>
+          </ul>
+        </div>
+        <div class="teachers_links">
+          <ul>
+            <li>
+              <a href="#"><h4>Información Profesores</h4></a>
+            </li>
+            <li><a href="">Solicitudes de estudiantes</a></li>
+
+            <li><a href="">Menú profesores</a></li>
+          </ul>
+        </div>
+        <div class="more_info">
+          <ul>
+            <li>
+              <a href="#"><h4>Más Información</h4></a>
+            </li>
+            <li><a href="">Acerca de la U de A</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Lineamientos de cancelación de cursos y semestre</h1>
+        <p>
+          Los/as estudiantes que requieran cancelar el semestre deberán
+          diligenciar el formulario para trámite de cancelación de semestre, en
+          el que deberán adjuntar una carta en la que autorizan a la Universidad
+          de Antioquia realizar el trámite y el paz y salvo del Sistema de
+          Bibliotecas. Sobre los paz y salvos para el trámite de las solicitudes
+          de cancelación de semestre: Biblioteca: los usuarios que requieren el
+          visto bueno y/o paz y salvo del Sistema de Bibliotecas lo pueden
+          adquirir mediante el Catálogo Público OPAC. Descarga aquí el
+          instructivo y mira cómo hacerlo. Una vez descargado el paz y salvo
+          debe adjuntar una captura de pantalla de éste en el formulario
+          indicado abajo. Con la información registrada en el formulario el
+          Centro de Documentación y la oficina de Bienestar de la Facultad de
+          Educación procederán con la revisión para establecer si el/la
+          estudiante se encuentra a paz y salvo con estas dependencias. 3. Con
+          lo anterior, la Vicedecanatura envía revisa la información y si cumple
+          con los requisitos envía la solicitud de cancelación de semestre al
+          Departamento de Admisiones y Registro para que sea procesada.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+    <script src="scripts_formulario.js"></script>
+  </body>
+</html>

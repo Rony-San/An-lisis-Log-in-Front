@@ -1,3 +1,12 @@
+:root{
+  --Verde-oscuro: #026937
+--Verde:  #35944b
+--Verde-claro: #43b649
+--Verde-amarillo: #8dc63f
+--Verde-azul-claro: 3ebdac
+--Verde-azul: 069a7e
+--Verde-azul-oscuro: #0e7774
+}
 body {
   margin: 0;
   padding: 0;
